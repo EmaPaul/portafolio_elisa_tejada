@@ -1,0 +1,118 @@
+:root {
+    --theme-color: white;
+    --primary-color: #124f88;
+    --secundary-color: #F7C331;
+    --text-color-inverse: white;
+    --text-color: black;
+    --navbar-shallow-color: #e5e5e5;
+    --menu-mobile-background-color: #3A4460;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section[id]{
+    scroll-margin-top: 70px;
+}
+
+body{
+    font-family:'Montserrat',sans-serif;
+    background-color: var(--theme-color);
+    color:var(--text-color);
+    padding-top:70px;
+}
+
+a{
+    text-decoration:none;
+    color:var(--text)
+}
+
+.horizontal-padding{
+    padding-left: 25px;
+    padding-right: 25px;
+    background-image: url('../img/mining-excavator-gf2d688723_1920.jpg');
+    background-size: cover;
+} 
+
+.vertical-padding{
+    padding-top: 25px;
+    padding-bottom: 25px;
+} 
+
+.horizontal-padding-skills{
+    padding-left: 25px;
+    padding-right: 25px;
+} 
+
+.vertical-padding-skills{
+    padding-top: 25px;
+    padding-bottom: 61px;
+} 
+
+.horizontal-padding-contact{
+    padding-left: 25px;
+    padding-right: 25px;
+} 
+
+.vertical-padding-contact{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #F7C331;
+} 
+
+#trucaso{
+    opacity: 0;
+    cursor:none;
+}
+
+@media (min-width: 950px) {
+    .horizontal-padding {
+      padding-left: 70px;
+      padding-right: 70px;
+      background-image: url('../img/mining-excavator-gf2d688723_1920.jpg');
+      background-size: cover;
+ 
+    }
+    .vertical-padding {
+      padding-top: 70px;
+      padding-bottom: 70px;
+    }
+    .horizontal-padding-skills {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .vertical-padding-skills{
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .horizontal-padding-contact{
+        padding-left: 25px;
+        padding-right: 25px;
+    } 
+    .vertical-padding-contact{
+        padding-top: 25px;
+        padding-bottom: 61px;
+        background-image: url('../img/mining-excavator-gf2d688723_1920.jpg');
+        background-size: cover;
+    } 
+}
+
+@media (max-width: 950px) {
+    body{
+        padding-bottom:60px
+    }
+    .horizontal-padding{
+        padding-left: 25px;
+        padding-right: 25px;
+        background-image: url('../img/mining-excavator-gf2d688723_1920.jpg');
+        background-size: cover;
+        margin-bottom: -69px;
+    } 
+    .vertical-padding-contact{
+        padding-top: 25px;
+        padding-bottom: 0px;
+        background-color: #F7C331;
+    } 
+    
+}
